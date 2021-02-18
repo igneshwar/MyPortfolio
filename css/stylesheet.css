@@ -50,6 +50,7 @@ img{
 }
 
 section{
+    min-width: 300px;
     padding: 2em 5em;
 }
 
@@ -311,11 +312,11 @@ header{
 .section__tittle--services::after {
     content: '';
     display: block;
-    width: 3em;
+    width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
     background: var(--clr-light);
-    opacity: 0.5;
+    opacity: 0.25;
 }
 
 .services{
